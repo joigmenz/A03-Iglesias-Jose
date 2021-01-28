@@ -1,0 +1,12 @@
+.contenedor p:first-child::before {
+    content: 'N';
+    font-size: 127px;
+    color: green;
+}
+
+.contenedor p:last-child::after {
+    content: '\A Fin. Cap. 1';
+    font-weight: bold;
+    white-space: pre-line;
+    color: green;
+}

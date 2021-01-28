@@ -1,0 +1,11 @@
+.breadcrumb a:first-child::before {
+    content: '>>';
+}
+
+.breadcrumb a::after {
+    content: '/';
+}
+
+.breadcrumb a:last-child::after {
+    content: '';
+}

@@ -1,0 +1,15 @@
+li > a[href$=".PDF"] {
+    color: green;
+}
+
+li > a[href$=".JPG"] {
+    color: violet;
+}
+
+li > a[href$=".PNG"] {
+    color: crimson;
+}
+
+li > a[href="http://youtube.com"] {
+    color: blue;
+}

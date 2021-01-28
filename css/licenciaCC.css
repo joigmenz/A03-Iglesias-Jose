@@ -1,0 +1,11 @@
+body em {
+    color: blue;
+}
+
+li > em {
+    font-weight: bold;
+}
+
+body em + em {
+    color: red;
+} 

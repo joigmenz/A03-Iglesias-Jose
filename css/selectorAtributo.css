@@ -1,0 +1,11 @@
+font[face] {
+    font-weight: bold;
+}
+
+font[face="Courier"] {
+    color: red;
+}
+
+font[face~="serif"] {
+    color: green;
+}
