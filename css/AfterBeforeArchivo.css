@@ -1,0 +1,25 @@
+.directory {
+    display: flex;
+    flex-direction: column;
+}
+
+.file-pdf::before {
+    content: url('/icons/pdf.svg');
+    display: inline-block;
+    height: 32px;
+    width: 32px;;
+}
+
+.file-jpg::before {
+    content: url('/icons/jpg.svg');
+    display: inline-block;
+    height: 32px;
+    width: 32px;;
+}
+
+.file-doc::before {
+    content: url('/icons/doc.svg');
+    display: inline-block;
+    height: 32px;
+    width: 32px;;
+}
